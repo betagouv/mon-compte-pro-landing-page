@@ -1,31 +1,19 @@
-<svg width="400" height="236" viewBox="0 0 400 236" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-<g filter="url(#filter0_d_46_31489)">
-<path d="M8 12C8 7.58173 11.5817 4 16 4H384C388.418 4 392 7.58172 392 12V18.4H8V12Z" fill="#6C63FF"/>
-<path d="M8 18.4H392V215.84C392 220.258 388.418 223.84 384 223.84H16C11.5817 223.84 8 220.258 8 215.84V18.4Z" fill="#E8EDFF"/>
-<circle cx="18.56" cy="11.6801" r="3.84" fill="#CE0500"/>
-<circle cx="30.08" cy="11.6801" r="3.84" fill="#FDCD6D"/>
-<circle cx="41.6" cy="11.6801" r="3.84" fill="#27A658"/>
-<rect x="233.6" y="36.64" width="135.36" height="31.68" fill="url(#pattern0)"/>
-<rect x="26.24" y="36.64" width="195.84" height="96.96" rx="8" fill="#B1C5DC"/>
-<rect x="233.6" y="80.7999" width="135.36" height="127.68" rx="8" fill="#B1C5DC"/>
-<rect x="26.24" y="143.2" width="195.84" height="7.68" rx="3.84" fill="white"/>
-<rect x="26.24" y="166.24" width="195.84" height="7.68" rx="3.84" fill="white"/>
-<rect x="26.24" y="189.28" width="195.84" height="7.68" rx="3.84" fill="white"/>
-<rect x="26.24" y="154.72" width="195.84" height="7.68" rx="3.84" fill="white"/>
-<rect x="26.24" y="177.76" width="195.84" height="7.68" rx="3.84" fill="white"/>
-<rect x="26.24" y="200.8" width="195.84" height="7.68" rx="3.84" fill="white"/>
-</g>
+<svg width="384" height="220" viewBox="0 0 384 220" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<path d="M0 8C0 3.58173 3.58172 0 8 0H376C380.418 0 384 3.58172 384 8V14.4H0V8Z" fill="#6C63FF"/>
+<path d="M0 14.4H384V211.84C384 216.258 380.418 219.84 376 219.84H7.99999C3.58171 219.84 0 216.258 0 211.84V14.4Z" fill="#E8EDFF"/>
+<circle cx="10.56" cy="7.68009" r="3.84" fill="#CE0500"/>
+<circle cx="22.08" cy="7.68009" r="3.84" fill="#FDCD6D"/>
+<circle cx="33.6" cy="7.68009" r="3.84" fill="#27A658"/>
+<rect x="225.6" y="32.64" width="135.36" height="31.68" fill="url(#pattern0)"/>
+<rect x="18.24" y="32.64" width="195.84" height="96.96" rx="8" fill="#B1C5DC"/>
+<rect x="225.6" y="76.7999" width="135.36" height="127.68" rx="8" fill="#B1C5DC"/>
+<rect x="18.24" y="139.2" width="195.84" height="7.68" rx="3.84" fill="white"/>
+<rect x="18.24" y="162.24" width="195.84" height="7.68" rx="3.84" fill="white"/>
+<rect x="18.24" y="185.28" width="195.84" height="7.68" rx="3.84" fill="white"/>
+<rect x="18.24" y="150.72" width="195.84" height="7.68" rx="3.84" fill="white"/>
+<rect x="18.24" y="173.76" width="195.84" height="7.68" rx="3.84" fill="white"/>
+<rect x="18.24" y="196.8" width="195.84" height="7.68" rx="3.84" fill="white"/>
 <defs>
-<filter id="filter0_d_46_31489" x="0" y="0" width="400" height="235.84" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-<feFlood flood-opacity="0" result="BackgroundImageFix"/>
-<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
-<feOffset dy="4"/>
-<feGaussianBlur stdDeviation="4"/>
-<feComposite in2="hardAlpha" operator="out"/>
-<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.15 0"/>
-<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_46_31489"/>
-<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_46_31489" result="shape"/>
-</filter>
 <pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
 <use xlink:href="#image0_46_31489" transform="translate(0 -0.0127273) scale(0.00148148 0.00632997)"/>
 </pattern>
