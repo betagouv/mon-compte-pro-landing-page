@@ -1,0 +1,27 @@
+{
+  "name": "mon-compte-pro-landing-page",
+  "version": "1.0.0",
+  "description": "Page de renvoi de Mon Compte Pro",
+  "engines": {
+    "node": "~16"
+  },
+  "main": "public/index.html",
+  "scripts": {
+    "start": "serve",
+    "build": "bash -c 'cp -r node_modules/@gouvfr/dsfr/dist/{dsfr.min.css,fonts,icons,utility} public/assets/'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/betagouv/mon-compte-pro-landing-page.git"
+  },
+  "author": "",
+  "license": "AGPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/betagouv/mon-compte-pro-landing-page/issues"
+  },
+  "homepage": "https://github.com/betagouv/mon-compte-pro-landing-page#readme",
+  "dependencies": {
+    "@gouvfr/dsfr": "^1.7.2",
+    "serve": "^14.0.1"
+  }
+}
