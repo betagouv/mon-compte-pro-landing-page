@@ -1,4 +1,4 @@
-# Page de renvoi de Mon Compte Pro
+# Page de renvoi de MonComptePro
 
 ## Accèder à la page
 

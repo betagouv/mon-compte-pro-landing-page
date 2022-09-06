@@ -1,7 +1,7 @@
 {
   "name": "mon-compte-pro-landing-page",
   "version": "1.0.0",
-  "description": "Page de renvoi de Mon Compte Pro",
+  "description": "Page de renvoi de MonComptePro",
   "engines": {
     "node": "~16"
   },
