@@ -113,3 +113,41 @@ body {
     border: 1px solid var(--artwork-decorative-blue-france);
     border-radius: 4px;
 }
+
+th.highlighted_column {
+    background-image: linear-gradient(0deg,var(--border-plain-grey),var(--border-plain-grey));
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: 100% 2px;
+    color: var(--text-title-blue-france);
+}
+
+th.highlighted_column, td.highlighted_column {
+    background-color: white;
+}
+
+td.highlighted_column {
+    background-image: linear-gradient(0deg,rgb(0 0 0 / 10%),rgb(0 0 0 / 10%));
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: 100% 1px;
+}
+
+th.highlighted_column, td.highlighted_column {
+    position: relative;
+}
+th.highlighted_column:before, td.highlighted_column:before, th.highlighted_column:after, td.highlighted_column:after {
+    content: " ";
+    height: 100%;
+    position: absolute;
+    top: 0;
+    width: 15px;
+}
+th.highlighted_column:before, td.highlighted_column:before {
+    box-shadow: -15px 0 15px -15px inset rgb(0 0 0 / 25%);
+    left: -15px;
+}
+th.highlighted_column:after, td.highlighted_column:after {
+    box-shadow: 15px 0 15px -15px inset rgb(0 0 0 / 25%);
+    right: -15px;
+}
