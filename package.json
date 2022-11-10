@@ -1,5 +1,5 @@
 {
-  "name": "mon-compte-pro-landing-page",
+  "name": "moncomptepro-landing-page",
   "version": "1.0.0",
   "description": "Page de renvoi de MonComptePro",
   "engines": {
@@ -12,14 +12,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/betagouv/mon-compte-pro-landing-page.git"
+    "url": "git+ssh://git@github.com/betagouv/moncomptepro-landing-page.git"
   },
   "author": "",
   "license": "AGPL-3.0-or-later",
   "bugs": {
-    "url": "https://github.com/betagouv/mon-compte-pro-landing-page/issues"
+    "url": "https://github.com/betagouv/moncomptepro-landing-page/issues"
   },
-  "homepage": "https://github.com/betagouv/mon-compte-pro-landing-page#readme",
+  "homepage": "https://github.com/betagouv/moncomptepro-landing-page#readme",
   "dependencies": {
     "@gouvfr/dsfr": "^1.7.2",
     "serve": "^14.0.1"
