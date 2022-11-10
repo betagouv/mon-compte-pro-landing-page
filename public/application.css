@@ -25,8 +25,8 @@ body {
 .section {
     max-width: 1200px;
     width: 100%;
-    margin: 1.5rem auto 1.5rem;
-    padding: 2rem 0;
+    margin: 0 auto;
+    padding: 3.5rem 0;
     display: flex;
     gap: 1rem;
     flex-direction: column;

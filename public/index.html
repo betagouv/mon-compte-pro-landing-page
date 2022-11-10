@@ -15,6 +15,7 @@
     <link rel="stylesheet" href="/assets/dsfr.min.css">
     <link rel="stylesheet" href="/assets/utility/utility.css">
     <link rel="stylesheet" href="/application.css">
+    <script type="text/javascript" src="/assets/dsfr.nomodule.js"></script>
 </head>
 <body>
     <header role="banner" class="fr-header">
@@ -34,7 +35,7 @@
                             <a href="/" title="Accueil - Compte DataPass">
                                 <p class="fr-header__service-title">MonComptePro</p>
                             </a>
-                            <p class="fr-header__service-tagline">Identifications des organisations</p>
+                            <p class="fr-header__service-tagline">Identification des organisations</p>
                         </div>
                     </div>
                     <div class="fr-header__tools">
@@ -60,6 +61,15 @@
                             </ul>
                         </div>
                     </div>
+                </div>
+            </div>
+        </div>
+        <div class="fr-header__menu fr-modal" id="modal-499" aria-labelledby="button-500">
+            <div class="fr-container">
+                <button class="fr-btn--close fr-btn" aria-controls="modal-499" title="Fermer">
+                    Fermer
+                </button>
+                <div class="fr-header__menu-links">
                 </div>
             </div>
         </div>
@@ -169,128 +179,77 @@
                     </div>
                 </div>
             </section>
+            <section class="section" id="faq">
+                <h2>
+                    FAQ
+                </h2>
+                <div class="fr-accordions-group" style="background-color: white">
+                    <section class="fr-accordion">
+                        <h3 class="fr-accordion__title">
+                            <button class="fr-accordion__btn" aria-expanded="false" aria-controls="accordion-1">
+                                Qui est derrière MonComptePro ?
+                            </button>
+                        </h3>
+                        <div class="fr-collapse" id="accordion-1">
+                            MonComptePro est la solution d'identification des professionnels du privé ou du public créé
+                            par la DINUM.
+                            <a href="https://beta.gouv.fr/startups/moncomptepro">En savoir plus.</a>
+                        </div>
+                    </section>
+                    <section class="fr-accordion">
+                        <h3 class="fr-accordion__title">
+                            <button class="fr-accordion__btn" aria-expanded="false" aria-controls="accordion-2">
+                                A quoi pouvez-vous vous connecter avec MonComptePro ?
+                            </button>
+                        </h3>
+                        <div class="fr-collapse" id="accordion-2">
+                            [Information à venir]
+                        </div>
+                    </section>
+                    <section class="fr-accordion">
+                        <h3 class="fr-accordion__title">
+                            <button class="fr-accordion__btn" aria-expanded="false" aria-controls="accordion-3">
+                                Vous n’arrivez pas à vous connecter
+                            </button>
+                        </h3>
+                        <div class="fr-collapse" id="accordion-3">
+                            [Information à venir]
+                        </div>
+                    </section>
+                    <section class="fr-accordion">
+                        <h3 class="fr-accordion__title">
+                            <button class="fr-accordion__btn" aria-expanded="false" aria-controls="accordion-4">
+                                Comment créer votre profil ?
+                            </button>
+                        </h3>
+                        <div class="fr-collapse" id="accordion-4">
+                            [Information à venir]
+                        </div>
+                    </section>
+                    <section class="fr-accordion">
+                        <h3 class="fr-accordion__title">
+                            <button class="fr-accordion__btn" aria-expanded="false" aria-controls="accordion-5">
+                                Où trouver votre SIRET ?
+                            </button>
+                        </h3>
+                        <div class="fr-collapse" id="accordion-5">
+                            [Information à venir]
+                        </div>
+                    </section>
+                    <section class="fr-accordion">
+                        <h3 class="fr-accordion__title">
+                            <button class="fr-accordion__btn" aria-expanded="false" aria-controls="accordion-6">
+                                Comment vérifiez-vous que vous appartenez bien à votre organisation ?
+                            </button>
+                        </h3>
+                        <div class="fr-collapse" id="accordion-6">
+                            [Information à venir]
+                        </div>
+                    </section>
+                </div>
+                <a class="fr-btn fr-btn--secondary" href="https://auth.api.gouv.fr/help">Voir toutes les rubriques</a>
+            </section>
         </div>
-        <section class="section" id="services-connectes">
-            <h2>
-                Avec MonComptePro, accédez aux services suivants
-            </h2>
-            <div class="home_card_container">
-                <div class="fr-card fr-enlarge-link home_card">
-                    <div class="fr-card__body">
-                        <div class="fr-card__content">
-                            <h3 class="fr-card__title">
-                                <a href="https://datapass.api.gouv.fr">DataPass</a>
-                            </h3>
-                            <p class="fr-card__desc">
-                                Obtenez des « Pass » pour accéder à la « Data » produite par l'État.
-                            </p>
-                            <ul class="fr-badges-group">
-                                <li>
-                                    <p class="fr-badge fr-badge--purple-glycine">état</p>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <div class="fr-card fr-enlarge-link home_card">
-                    <div class="fr-card__body">
-                        <div class="fr-card__content">
-                            <h3 class="fr-card__title">
-                                <a href="https://dashboard.entreprise.api.gouv.fr/">
-                                    API Entreprise
-                                </a>
-                            </h3>
-                            <p class="fr-card__desc">
-                                Récupérez les données des entreprises pour éviter de les redemander.
-                            </p>
-                            <ul class="fr-badges-group">
-                                <li>
-                                    <p class="fr-badge fr-badge--purple-glycine">état</p>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <div class="fr-card fr-enlarge-link home_card">
-                    <div class="fr-card__body">
-                        <div class="fr-card__content">
-                            <h3 class="fr-card__title">
-                                <a href="https://mon.portail.api.gouv.fr/">
-                                    API Particulier
-                                </a>
-                            </h3>
-                            <p class="fr-card__desc">
-                                Obtenez les données des particuliers pour réduire les demandes de pièces justificatives
-                                et simplifier les démarches.
-                            </p>
-                            <ul class="fr-badges-group">
-                                <li>
-                                    <p class="fr-badge fr-badge--purple-glycine">état</p>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <div class="fr-card fr-enlarge-link home_card">
-                    <div class="fr-card__body">
-                        <div class="fr-card__content">
-                            <h3 class="fr-card__title">
-                                <a href="https://hubee.numerique.gouv.fr/">HubEE</a>
-                            </h3>
-                            <p class="fr-card__desc">
-                                Accédez aux démarches réalisées par les usagers.
-                            </p>
-                            <ul class="fr-badges-group">
-                                <li>
-                                    <p class="fr-badge fr-badge--purple-glycine">état</p>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <div class="fr-card fr-enlarge-link home_card">
-                    <div class="fr-card__body">
-                        <div class="fr-card__content">
-                            <h3 class="fr-card__title">
-                                <a href="https://territoiresentransitions.fr/">
-                                    Territoires en transition
-                                </a>
-                            </h3>
-                            <p class="fr-card__desc">
-                                Pilotez efficacement la transition écologique de votre collectivité.
-                            </p>
-                            <ul class="fr-badges-group">
-                                <li>
-                                    <p class="fr-badge fr-badge--purple-glycine">collectivité</p>
-                                    <p class="fr-badge fr-badge--blue-ecume">prochainement</p>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <div class="fr-card fr-enlarge-link home_card">
-                    <div class="fr-card__body">
-                        <div class="fr-card__content">
-                            <h3 class="fr-card__title">
-                                <a href="https://ma-cantine.beta.gouv.fr/">
-                                    Ma cantine
-                                </a>
-                            </h3>
-                            <p class="fr-card__desc">
-                                Mieux manger de la crèche à l’EHPAD
-                            </p>
-                            <ul class="fr-badges-group">
-                                <li>
-                                    <p class="fr-badge fr-badge--purple-glycine">collectivité</p>
-                                    <p class="fr-badge fr-badge--blue-ecume">prochainement</p>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <a class="fr-btn" href="https://auth.api.gouv.fr/users/start-sign-in">Je veux un compte !</a>
-        </section>
     </main>
     <footer class="fr-footer" role="contentinfo" id="footer">
         <div class="fr-container">
