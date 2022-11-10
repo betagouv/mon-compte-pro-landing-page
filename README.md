@@ -2,7 +2,7 @@
 
 ## Accèder à la page
 
-[https://mon-compte-pro.beta.gouv.fr](https://mon-compte-pro.beta.gouv.fr)
+[https://moncomptepro.beta.gouv.fr](https://moncomptepro.beta.gouv.fr)
 
 ## Requirements
 
@@ -11,8 +11,8 @@
 ## Installation
 
 ```shell
-git clone git@github.com:betagouv/mon-compte-pro-landing-page.git
-cd mon-compte-pro-landing-page
+git clone git@github.com:betagouv/moncomptepro-landing-page.git
+cd moncomptepro-landing-page
 npm i
 npm run build
 npm start
@@ -20,4 +20,4 @@ npm start
 
 ## Liens externes
 
-- [https://beta.gouv.fr/startups/comptes_datapass.html](https://beta.gouv.fr/startups/comptes_datapass.html)
+- [https://beta.gouv.fr/startups/moncomptepro](https://beta.gouv.fr/startups/moncomptepro)
