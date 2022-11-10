@@ -34,35 +34,40 @@ body {
 
 @media all and (max-width: 1248px) {
     .section {
-        margin: 1.5rem;
         width: calc(100% - 3rem);
     }
 }
 
 .first_section {
+    align-items: center;
     flex-direction: row;
+    gap: 5rem;
+}
+
+.home_page .first_section {
     gap: 13rem;
 }
 
 @media all and (max-width: 1248px) {
-    .first_section {
+    .home_page .first_section {
         gap: 5rem;
     }
 }
 
 @media all and (max-width: 768px) {
-    .first_section .head_illustration {
+    .home_page .first_section .head_illustration {
         display: none;
     }
 }
 
-
-.page_partenaire .first_section {
-    gap: 5rem;
+@media all and (max-width: 992px) {
+    .partenaire_page .first_section .head_illustration {
+        display: none;
+    }
 }
 
-@media all and (max-width: 992px) {
-    .page_partenaire .first_section .head_illustration {
+@media all and (max-width: 576px) {
+    .partenaire_page .first_section .voushesitez_illustration {
         display: none;
     }
 }
