@@ -40,17 +40,19 @@ body {
     }
 }
 
-.first-section {
+.first_section {
     flex-direction: row;
+    gap: 13rem;
 }
 
-.first-section > * {
-    flex-grow: 1;
-    flex-basis: 0;
+@media all and (max-width: 1248px) {
+    .first_section {
+        gap: 5rem;
+    }
 }
 
 @media all and (max-width: 768px) {
-    .first-section .head-illustration {
+    .first_section .head_illustration {
         display: none;
     }
 }
@@ -85,4 +87,12 @@ body {
 
 .home_card_container .home_card img {
     object-fit: none;
+}
+
+.blue_text {
+    color: var(--text-title-blue-france);
+}
+
+.blue_highlight {
+    background-color: var(--background-contrast-info);
 }
