@@ -56,6 +56,17 @@ body {
     }
 }
 
+
+.page_partenaire .first_section {
+    gap: 5rem;
+}
+
+@media all and (max-width: 992px) {
+    .page_partenaire .first_section .head_illustration {
+        display: none;
+    }
+}
+
 .home_card_container {
     display: flex;
     flex-wrap: wrap;
