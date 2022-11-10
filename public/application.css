@@ -57,17 +57,8 @@ body {
     }
 }
 
-.section .section-subtitle {
-    max-width: 650px;
-    text-align: center;
-}
-
 .section h2 {
     text-align: center;
-}
-
-.blue-background {
-    background-color: #f5f5fe
 }
 
 .home_card_container {
@@ -89,10 +80,20 @@ body {
     object-fit: none;
 }
 
-.blue_text {
-    color: var(--text-title-blue-france);
+.blue_background {
+    background-color: #f5f5fe
+}
+
+.blue_border {
+    box-shadow: none!important;
+    border: 2px solid var(--border-default-blue-france);
+    border-radius: 4px;
 }
 
 .blue_highlight {
     background-color: var(--background-contrast-info);
+}
+
+.blue_text {
+    color: var(--text-title-blue-france);
 }
