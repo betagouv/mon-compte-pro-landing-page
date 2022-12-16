@@ -65,6 +65,12 @@ body {
     }
 }
 
+@media all and (max-width: 1248px) {
+    .partenaire_page .aside_img_section .head_illustration img {
+        max-width: 450px;
+    }
+}
+
 @media all and (max-width: 576px) {
     .partenaire_page .aside_img_section .voushesitez_illustration {
         display: none;
