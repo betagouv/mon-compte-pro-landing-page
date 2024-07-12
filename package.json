@@ -21,7 +21,7 @@
   },
   "homepage": "https://github.com/betagouv/moncomptepro-landing-page#readme",
   "dependencies": {
-    "@gouvfr/dsfr": "^1.7.2",
+    "@gouvfr/dsfr": "^1.12.1",
     "serve": "^14.0.1"
   }
 }
