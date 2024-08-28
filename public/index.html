@@ -359,3 +359,19 @@
     </footer>
 </body>
 </html>
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        const accordionButtons = document.querySelectorAll('.fr-accordion__btn');
+        accordionButtons.forEach(button => {
+            button.addEventListener('click', function() {
+                const isExpanded = this.getAttribute('aria-expanded') === 'true';
+                accordionButtons.forEach(btn => {
+                    const targetElement = document.getElementById(btn.getAttribute('aria-controls'));
+                    const shouldExpand = btn === this && !isExpanded;
+                    btn.setAttribute('aria-expanded', shouldExpand);
+                    targetElement.classList.toggle('fr-collapse--expanded', shouldExpand);
+                });
+            });
+        });
+    });
+</script>
