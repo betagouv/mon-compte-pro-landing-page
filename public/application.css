@@ -4,6 +4,7 @@ header {
 
 main {
     grid-area: main;
+	background-color: rgba(244, 244, 255, 1);
 }
 
 footer {
@@ -21,11 +22,14 @@ body {
     'footer';
 }
 
+h2{
+	font-weight: 500;
+}
+
 .section {
     max-width: 1200px;
     width: 100%;
     margin: 0 auto;
-    padding: 3.5rem 0;
     display: flex;
     gap: 1rem;
     flex-direction: column;
@@ -38,7 +42,7 @@ body {
 }
 
 .aside_img_section {
-    align-items: center;
+    align-items: flex-start;
     flex-direction: row;
     gap: 5rem;
 }
