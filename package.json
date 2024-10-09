@@ -8,7 +8,7 @@
   "main": "public/index.html",
   "scripts": {
     "start": "serve",
-    "build": "bash -c 'cp -r node_modules/@gouvfr/dsfr/dist/{dsfr.nomodule.js,dsfr.min.css,fonts,icons,utility} public/assets/'"
+    "build": "bash -c 'cp -r node_modules/@gouvfr/dsfr/dist/{dsfr.min.css,fonts,icons,utility} public/assets/'"
   },
   "repository": {
     "type": "git",
